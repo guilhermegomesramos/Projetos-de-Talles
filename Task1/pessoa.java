@@ -27,9 +27,9 @@ public class pessoa {
     }
 
     String youVote() {
-        if (age >= 16) {
+        if (age >= 16 && age < 18) {
             return "Você já pode votar, mas não é obrigatório!";
-        } if (age >= 18) {
+        } else if (age >= 18) {
             return "Você já pode votar e é obrigatório!";}
          else {
             return "Você ainda não pode votar!";
