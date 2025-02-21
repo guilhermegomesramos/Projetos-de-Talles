@@ -1,4 +1,4 @@
-package Task1;
+package Task1.ex1;
 
 public class pessoa {
     String name;
