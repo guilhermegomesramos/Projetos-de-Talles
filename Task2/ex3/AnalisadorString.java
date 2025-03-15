@@ -10,27 +10,21 @@ public class AnalisadorString {
         System.out.print("Digite uma string: ");
         String input = scanner.nextLine();
 
-        // Número de caracteres
         int numeroCaracteres = input.length();
         System.out.println("Número de caracteres: " + numeroCaracteres);
 
-        // String em maiúsculo
         String maiusculo = input.toUpperCase();
         System.out.println("String em maiúsculo: " + maiusculo);
 
-        // Número de vogais
         int numVogais = contarVogais(input);
         System.out.println("Número de vogais: " + numVogais);
 
-        // Começa com "UNI"
         boolean comecaComUNI = input.toUpperCase().startsWith("UNI");
         System.out.println("Começa com 'UNI'? " + comecaComUNI);
 
-        // Termina com "RIO"
         boolean terminaComRIO = input.toUpperCase().endsWith("RIO");
         System.out.println("Termina com 'RIO'? " + terminaComRIO);
 
-        // Número de dígitos
         int numeroDigitos = contarDigitos(input);
         System.out.println("Número de dígitos: " + numeroDigitos);
 
